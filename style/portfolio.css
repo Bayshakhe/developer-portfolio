@@ -2,6 +2,9 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+body{
+    max-width: 1600px;
+    margin: 0 auto;}
 /* navbar design */
 .header{
     background-color:#FFF8F3;
@@ -19,7 +22,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
     padding-top: 50px;
 }
 ul{
